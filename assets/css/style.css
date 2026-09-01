@@ -226,6 +226,7 @@ a:hover{
 
 .theme-text{
     background: var(--secondary-gradient-color);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -415,7 +416,7 @@ a:hover{
     background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-image: url(assets/images/portrait.png);
+    background-image: url(.../images/portrait.png);
 }
 
 @media (max-width: 576px) {
@@ -1027,7 +1028,7 @@ a:hover{
     background: var(--primary-gradient-color);
     background-clip: text;
     -webkit-background-clip: text;
-    text-fill-color: transparent;
+    text-emphasis-color: transparent;
     -webkit-text-fill-color: transparent;
 }
 
